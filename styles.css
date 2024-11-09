@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Gabarito&family=Inclusive+Sans&family=Montserrat&family=Poppins&family=Roboto&family=Space+Grotesk&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    transition: all 0.5s linear;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.main{
+    height: 80vh;
+    width: 100%;
+    background-color: #F5EEDC;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding: 0 5%;
+}
+.navbar li{
+    display: inline;
+    padding: 0 15px;
+}
+.navbar li a{
+    text-decoration: none;
+    color:  #2C1B0D;
+    font-size: 23px;
+    padding: 4px;
+}
+.navbar li a:hover{
+    color: #C19A6B;
+}
+p{
+    color: #2C1B0D;
+}
+
+.btn{
+    padding: 12px 39px;
+    background-color:  #D4AF37;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #9c8c7a;
+    color: black;
+}
+.main-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    height: 60vh;
+}
+.para{
+    color: #9c8c7a;
+    letter-spacing: 2px;
+}
+.heading{
+    color:#D4AF37;
+    font-size: 75px;
+    font-family: 'Courgette', cursive;
+}
+.mid-para{
+    font-size: 11px;
+    color: #9c8c7a;
+    padding: 2% 0;
+}
+.btn1{
+    border-radius: 20px;
+    letter-spacing: 1px;
+    margin-top: 2%;
+}
+
+.sec{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 3% 0;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    margin: 2% 0;
+}
+.img{
+    width: 40%;
+}
+.row img{
+    width: 80%;
+}
+.boxes{
+    width: 35%;
+    align-self: center;
+    text-align: left;
+}
+.boxes h1{
+    color: rgb(57,36,36);
+    font-size: 30px;
+}
+.sec .heading{
+    color: rgb(92,44,10);
+    font-size: 50px;
+}
+/* ________-types_______ */
+.box{
+    flex-basis: 17%;
+    margin: 0 30px;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+}
+.box h2{
+    background-color: #3d1f0a;
+    color: white;
+    padding: 12px 0px;
+}
+
+
+
+/* Footer Styles */
+footer {
+    background-color: #2C1B0D; /* Dark Brown Background */
+    color: #F5EEDC; /* Creamy Beige Text */
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Footer Container */
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Logo and Company Info */
+.footer-logo-info {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+.company-info {
+    line-height: 1.6;
+}
+
+/* Contact Form */
+.footer-contact-form {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-contact-form h3 {
+    margin-bottom: 15px;
+    color: #D4AF37; /* Gold Heading */
+}
+
+.footer-contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-contact-form input,
+.footer-contact-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F5EEDC; /* Creamy Beige Background */
+    color: #4E2E1D; /* Rich Chocolate Text */
+}
+
+.footer-contact-form input::placeholder,
+.footer-contact-form textarea::placeholder {
+    color: #4E2E1D;
+}
+
+.footer-contact-form button {
+    background-color: #D4AF37; /* Gold Button */
+    color: #2C1B0D; /* Dark Brown Text */
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.footer-contact-form button:hover {
+    background-color: #4E2E1D; 
+    color: #F5EEDC; 
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #D4AF37; 
+    padding-top: 15px;
+    font-size: 0.9rem;
+}
+
+.box img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .main-heading {
+        width: 100%;
+    }
+}
